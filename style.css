@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Roboto&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0;
+    
+}
+
+body{
+
+    background-image:url(img-terceirapontebsb.jpeg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+
+}
+
+header{
+
+    background-color: rgba(240, 134, 5, 0.85);
+    height: 60px;
+    width:100%;
+    position: fixed;
+    padding: 10px 0px;
+    z-index: 1;
+
+}
+
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    height: auto;
+    background-color: rgba(211, 211, 211, 0.8);
+    text-align: justify;
+    padding: 30px;
+    width: 70%;
+    font-size: 25px;
+    position: relative;
+    left: 13%;
+    top: 190px;
+    border-radius: 0 45px 0 45px;
+   
+}
+
+
+.logotipo{
+
+    font-family: 'Rampart One', Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    position: absolute;
+    left: 100px;
+    
+}
+
+.buscador{
+
+    position: absolute;
+    right: 10%;
+    top: 25px;
+    border-radius: 5px;
+    height: 30px;
+    padding-left: 5px;
+
+}
+
+.buscador-icone{
+
+    position: absolute;
+    right: 7.5%;
+    top: 28px;
+    height: 30px;
+
+}
+
+.video-youtube{
+
+    position: absolute;
+    top: 740px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1280px;
+    height: 720px;
+    right: 5.5%;
+
+}
+.curiosidades{
+
+    position: absolute;
+    top: 1600px;
+    padding-left: 80px;
+    
+
+}
+
+h2{
+
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+    background-color:rgba(211, 211, 211, 0.8);
+    text-align: center;
+    width: 600px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px 47px 10px 47px;
+    margin-bottom: 40px;
+
+}
+
+ol{
+    background-color: rgba(111, 140, 166, 1.0);
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    
+}
+
+.titulo-lista{
+
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    margin-left: 15px;
+    padding-top: 30px;
+    color: #F2CB05;
+}
+
+ul{
+    font-size: 20px;
+    padding-top: 10px;
+    text-align: justify;
+    color: rgba(211, 211, 211, 1.0);  
+}
+
+blockquote{
+
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+
+}
+
+footer{
+
+    position: absolute;
+    top: 3020px;
+    z-index: 5;
+    background-color: rgba(240, 134, 5, 1);
+    height: 60px;
+    width:100%;
+}
+
+.instagram-icon{
+
+    width: 35px;
+    height: 35px;
+    position: relative;
+    bottom: 06px;
+    margin-left: 290px;
+
+}
+
+.youtube-icon{
+
+    width: 35px;
+    height: 35px;
+    position: relative;
+    bottom: 6px;
+    margin-left: 40px;
+
+}
+
+.facebook-icon{
+
+    width: 35px;
+    height: 35px;
+    position: relative;
+    bottom: 6px;
+    margin-left: 40px;
+
+}
+
+.siga-brasilia{
+
+    position: relative;
+    top: 22px;
+    padding-left: 30px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+
+}
